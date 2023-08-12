@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  babylonjs:
+    specifier: ^6.16.0
+    version: 6.16.0
+
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
@@ -396,6 +401,11 @@ packages:
     dependencies:
       dequal: 2.0.3
     dev: true
+
+  /babylonjs@6.16.0:
+    resolution: {integrity: sha512-q85YmfioRYHzCK0SVcFvKWcMdJfUDYiDtPNKHajJV2x8tH8m4FaCBq73IBamoBvl9EXOt0WRHRoBctjd6/lMfA==}
+    requiresBuild: true
+    dev: false
 
   /balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
